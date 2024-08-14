@@ -1,0 +1,13 @@
+train: D:\Internship\dataextraction\FFB counting.v1i.yolov8\train\images
+val: D:\Internship\dataextraction\FFB counting.v1i.yolov8\valid\images
+test: D:\Internship\dataextraction\FFB counting.v1i.yolov8\test\images
+
+nc: 1
+names: ['FFB']
+
+roboflow:
+  workspace: hon-chu-hao
+  project: ffb-counting-li5ko
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hon-chu-hao/ffb-counting-li5ko/dataset/1
